@@ -4,14 +4,34 @@
 	<title>Practice</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css"
 </head>
-<body>
+<body id="mainHead">
   <p>Matthew Pollard</p>
   <p>That's my name.</p>
   <br><hr>
+  <a href="http://www.stackoverflow.com" target="_blank">A link to Stack Overflow</a><br>
+  <a href="http://asmarterwaytolearn.com/why-exercises.html" target="_blank">why exercises</a>
+  <br><hr>
   <p class="important">Warning: We have no slow lorises here.</p>
   <br>
-  <img src="images/loris.jpg" class="block">
+  <img src="images/loris.jpg" class="block" alt="not a slow loris" width="250" height="197">
+  <img src="images/loris.jpg" class="totheright" alt="still not a slow loris" width="125" height="99">
+  <img src="images/loris.jpg" class="inTheMiddle floatLeft" alt="this third image isn't a slow loris" width="120" height="94"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <hr>
+  <p id="openWindow">Check out a smarter way to learn</p>
+<script>
+document.getElementById("openWindow").onclick = openWindow;
+function openWindow() {
+  var w = window.open("http://www.asmarterwaytolearn.com", "", "width=200,height=300,left=300,top=400");
+}
+</script>
+
+Myers, Mark. A Smarter Way to Learn HTML & CSS: Learn it faster. Remember it longer. (pp. 83-84). Kindle Edition. 
+  <hf>
   <h2 class="typewriter" id="id-h2-color-red">This heading is in typewriter text.</h2>
 
   <hr>
@@ -89,6 +109,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockq
   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
   consequat.</p>
 
-
+<a href="#mainHead">Back to top</a>
 </body>
 </html>

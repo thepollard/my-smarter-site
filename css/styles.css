@@ -63,3 +63,16 @@ div#main-div {
 img.block {
 	display: block;
 }
+img.totheright {
+	margin-left: 1em;
+}
+img.inTheMiddle {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+img.floatLeft {
+  float: left;
+}
+img.wrap {
+  clear: both;
+}
