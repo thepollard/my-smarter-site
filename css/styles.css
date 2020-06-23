@@ -51,3 +51,15 @@ p.fourmargins {
 	border: 3px solid purple;
 	padding: .4em;
 }
+h2#id-h2-color-red {
+	color: red;
+}
+div#main-div {
+	margin-left: 3em;
+	margin-right: 3em;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+img.block {
+	display: block;
+}
