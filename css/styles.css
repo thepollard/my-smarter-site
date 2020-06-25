@@ -76,3 +76,10 @@ img.floatLeft {
 img.wrap {
   clear: both;
 }
+
+li {
+	margin: .75em;
+}
+.lists {
+	list-style-position: inside;
+}
