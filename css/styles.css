@@ -83,3 +83,15 @@ li {
 .lists {
 	list-style-position: inside;
 }
+ul {
+	list-style-type: square;
+}
+div.doublesize p {
+	font-size: 2em;
+}
+th, td {
+	border: 2px solid blue;
+}
+table {
+	border-collapse: collapse;
+}
