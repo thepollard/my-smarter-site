@@ -91,7 +91,19 @@ div.doublesize p {
 }
 th, td {
 	border: 2px solid blue;
+	padding: .25em;
 }
 table {
 	border-collapse: collapse;
+	padding: .25em;
+}
+table.simpletable {
+	width: 60%;
+	text-align: center;
+}
+th, td.fiftyfifty {
+  width: 50%;
+}
+th#top {
+	vertical-align: top;
 }
