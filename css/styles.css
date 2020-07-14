@@ -107,3 +107,11 @@ th, td.fiftyfifty {
 th#top {
 	vertical-align: top;
 }
+/*
+This is for adjust the input of a text field
+and the input for a large text area field
+*/
+input[type="text"], textarea {
+	font-size: 2em;
+	padding: .5em;
+}
