@@ -71,6 +71,38 @@
   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <hr>
+    <form action="send.php" method="post">
+      <h3>We'd like to hear from you!</h3>
+      <br>
+      Name:
+      <br>
+      <input type="text" name="fullname" size="20" maxlength="30">
+      <br>
+      <br>
+      Message:
+      <br>
+      <textarea name="message" rows="8" cols="35"></textarea>
+      <br><br>
+      Which Heroes do you like?
+      <input type="checkbox" name="prefer-hero" id="thor" value="Thor" checked="checked"><label for="thor">Thor</label>
+      <input type="checkbox" name="prefer-hero" id="loki" value="Loki"><label for="loki">Loki</label>
+      <input type="checkbox" name="prefer-hero" id="cptamerica" value="Cpt. America"><label for="cptamerica">Captain America</label>
+      <br><br>
+      <select name="choose-title">
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>
+        <option value="Mrs.">Mrs.</option>
+        <option value="Dr.">Dr.</option>
+      </select>
+    </br>
+      Finally, do you like pineapple on your pizza?
+      <br>
+      <label><input type="radio" name="pizza" value="Yes" checked="yes">Yes</label>
+      <label><input type="radio" name="pizza" value="No">No</label>
+      <br><br>
+      <input type="submit" value="Send email message">
+    </form>
+  <hr>
   <h3>Some of my favorite foods</h3>
     <table>
       <tr>
