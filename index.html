@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<!-- This is my first HTML document
+  in a very long time.  It has a lot
+  of different sections to it.
+-->
 <head>
 	<title>Practice</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css"
@@ -74,34 +78,42 @@
     <form action="send.php" method="post">
       <h3>We'd like to hear from you!</h3>
       <br>
-      Name:
-      <br>
-      <input type="text" name="fullname" size="20" maxlength="30">
-      <br>
-      <br>
-      Message:
-      <br>
-      <textarea name="message" rows="8" cols="35"></textarea>
+      <fieldset>
+        <legend>Info</legend>
+        Name:
+        <br>
+        <input type="text" name="fullname" size="20" maxlength="30">
+        <br>
+        <br>
+        Message:
+        <br>
+        <textarea name="message" rows="8" cols="35"></textarea>
+      </fieldset>
       <br><br>
-      Which Heroes do you like?
-      <input type="checkbox" name="prefer-hero" id="thor" value="Thor" checked="checked"><label for="thor">Thor</label>
-      <input type="checkbox" name="prefer-hero" id="loki" value="Loki"><label for="loki">Loki</label>
-      <input type="checkbox" name="prefer-hero" id="cptamerica" value="Cpt. America"><label for="cptamerica">Captain America</label>
-      <br><br>
-      <select name="choose-title">
-        <option value="Mr.">Mr.</option>
-        <option value="Ms.">Ms.</option>
-        <option value="Mrs.">Mrs.</option>
-        <option value="Dr.">Dr.</option>
-      </select>
-    </br>
-      Finally, do you like pineapple on your pizza?
-      <br>
-      <label><input type="radio" name="pizza" value="Yes" checked="yes">Yes</label>
-      <label><input type="radio" name="pizza" value="No">No</label>
-      <br><br>
-      <input type="submit" value="Send email message">
+      <fieldset>
+        <legend>More about you</legend>
+        Which Heroes do you like?
+        <input type="checkbox" name="prefer-hero" id="thor" value="Thor" checked="checked"><label for="thor">Thor</label>
+        <input type="checkbox" name="prefer-hero" id="loki" value="Loki"><label for="loki">Loki</label>
+        <input type="checkbox" name="prefer-hero" id="cptamerica" value="Cpt. America"><label for="cptamerica">Captain America</label>
+        <br><br>
+        Choose a title:
+        <select name="choose-title">
+          <option value="Mr.">Mr.</option>
+          <option value="Ms.">Ms.</option>
+          <option value="Mrs.">Mrs.</option>
+          <option value="Dr.">Dr.</option>
+        </select>
+      </br><br>
+        Finally, do you like pineapple on your pizza?
+        <br>
+        <label><input type="radio" name="pizza" value="Yes" checked="yes">Yes</label>
+        <label><input type="radio" name="pizza" value="No">No</label>
+        <br><br>
+        <input type="submit" value="Send email message">
+      </fieldset>
     </form>
+
   <hr>
   <h3>Some of my favorite foods</h3>
     <table>

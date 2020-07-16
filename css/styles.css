@@ -107,6 +107,7 @@ th, td.fiftyfifty {
 th#top {
 	vertical-align: top;
 }
+<<<<<<< HEAD
 div.smallbox {
 	width: 20%;
 	margin: 0 auto 0 auto;
@@ -130,4 +131,13 @@ div#clear-container {
 	border: 1px solid brown;
 	width: 90%;
 	margin: 0 auto 0 auto;
+=======
+/*
+This is for adjust the input of a text field
+and the input for a large text area field
+*/
+input[type="text"], textarea {
+	font-size: 2em;
+	padding: .5em;
+>>>>>>> 0ebef01542382800116775ffecb8804a6246b2b7
 }
