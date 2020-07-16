@@ -107,3 +107,27 @@ th, td.fiftyfifty {
 th#top {
 	vertical-align: top;
 }
+div.smallbox {
+	width: 20%;
+	margin: 0 auto 0 auto;
+}
+div#box1 {
+	width: 45%;
+	float: left;
+	text-align: center;
+	clear: both;
+}
+div#box2 {
+	width: 45%;
+	float: right;
+	text-align: center;
+	
+}
+p.clear {
+	clear: both;
+}
+div#clear-container {
+	border: 1px solid brown;
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
