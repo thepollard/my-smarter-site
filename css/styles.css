@@ -1,3 +1,16 @@
+div#header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #6CB3D9;
+	/*text-align: center;*/
+}
+img#loris {
+	float: left;
+	margin: 1em;
+	padding-top: .3em;
+}
 p{
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 1.2em;
@@ -107,7 +120,6 @@ th, td.fiftyfifty {
 th#top {
 	vertical-align: top;
 }
-<<<<<<< HEAD
 div.smallbox {
 	width: 20%;
 	margin: 0 auto 0 auto;
@@ -116,13 +128,14 @@ div#box1 {
 	width: 45%;
 	float: left;
 	text-align: center;
-	clear: both;
+    clear: both;
 }
 div#box2 {
 	width: 45%;
 	float: right;
+	margin: 0 0 0 1em;
 	text-align: center;
-	
+
 }
 p.clear {
 	clear: both;
@@ -131,7 +144,12 @@ div#clear-container {
 	border: 1px solid brown;
 	width: 90%;
 	margin: 0 auto 0 auto;
-=======
+}
+div#bttlink {
+	clear: both;
+	text-align: center;
+}
+
 /*
 This is for adjust the input of a text field
 and the input for a large text area field
@@ -139,5 +157,4 @@ and the input for a large text area field
 input[type="text"], textarea {
 	font-size: 2em;
 	padding: .5em;
->>>>>>> 0ebef01542382800116775ffecb8804a6246b2b7
 }
