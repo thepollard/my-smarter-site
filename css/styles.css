@@ -1,15 +1,21 @@
-div#header {
+div#invisible-header {
+	width: 100%;
+	visibility: hidden;
+}
+div#header h1, div#invisible-header h1 {
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background-color: #6CB3D9;
-	/*text-align: center;*/
+	padding: 0;
 }
-img#loris {
+div#header img, div#invisible-header img {
 	float: left;
 	margin: 1em;
-	padding-top: .3em;
+}
+p.clearFloat {
+	clear: both;
 }
 p{
 	font-family: Georgia, "Times New Roman", serif;
