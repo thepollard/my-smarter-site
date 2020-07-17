@@ -1,21 +1,38 @@
-div#invisible-header {
+div#header-hidden {
 	width: 100%;
 	visibility: hidden;
 }
-div#header h1, div#invisible-header h1 {
+div#header h1, div#header-hidden h1 {
 	width: 100%;
-	position: absolute;
+	height: 48px;
 	top: 0;
 	left: 0;
+	font-size: 2em;
 	background-color: #6CB3D9;
-	padding: 0;
+	text-align: middle;
 }
-div#header img, div#invisible-header img {
+div#header img, div#header-hidden img {
 	float: left;
-	margin: 1em;
+	margin: .2em .6em 0 .75em;
 }
 p.clearFloat {
 	clear: both;
+}
+div#topbar {
+	clear: both;
+	background-color: brown;
+	display: inline-block;
+}
+div#topbar ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+div#topbar ul li a {
+	font-family: font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: 800;
+	text-decoration: none;
+	color: gray;
 }
 p{
 	font-family: Georgia, "Times New Roman", serif;
