@@ -30,7 +30,7 @@ div#topbar ul {
 	/*padding-left: 0;*/
 }
 div#topbar ul li {
-	background-color: blue;
+	/*background-color: blue;*/
 	text-align: center;
 	display: inline;
 	width: 29%;
@@ -46,6 +46,16 @@ div#topbar ul li a {
 	display: block;
 	padding: .35em ;
 }
+li.changeTopbarBackground {
+	background-color: blue;
+}
+li.changeTopbarBackground:hover {
+	background-color: lightBlue;
+}
+li.changeTopbarBackground:active {
+	background-color: darkblue;
+}
+
 p{
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 1.2em;
@@ -157,6 +167,7 @@ th#top {
 }
 div.smallbox {
 	width: 20%;
+	background-image: url(http://www.asmarterwaytolearn.com/gray-gradient-slice.png);
 	margin: 0 auto 0 auto;
 }
 div#box1 {
