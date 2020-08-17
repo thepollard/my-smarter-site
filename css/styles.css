@@ -1,3 +1,10 @@
+body#topRightImg {
+	background-image: url("http://www.asmarter-waytolearn.com/monarch.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
 div#header-hidden {
 	width: 100%;
 	visibility: hidden;
